@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff0e4;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.mensagem-container{
+    
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    background-color: rgb(235, 255, 235);
+    /* padding: 200px; */
+    border-radius: 14px;
+    width: 800px;
+}
+
+.notificacao{
+    width: 400px;
+    height: 50%;
+    background-color: rgb(255, 240, 222);
+    border-radius: 60px;
+    box-shadow: 0px 2px 4px #0002;
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    place-items: center;
+}
+
+.notificacao img{
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
