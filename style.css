@@ -40,28 +40,42 @@ body{
     height: 80px;
     border-radius: 50%;
     display: flex;
-    padding: 8px;
-
-    
+    padding: 8px;  
 }
 
 p{
     font-size: 12px;
     display: flex;
-    width: 100px;
-    padding: 60px;
+    width: 2vw;
+    height: 4vh;
 }
 
 h2{
-    width: 100px;
+    width: 6vw;
+    height: 2vh;
     font-size: 16px;
     display: flex;
-    padding-right: 60%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: plum;
 }
 
-h1{
-    width: 6vw;
+h3{
+    width: 4vw;
     height: 3vh;
     background-color: tomato;
-    transform: translate(-550px, 40px);
+    border-radius: 14px;
+    transform: translate(-560px, 40px);
+    text-align: center;
+}
+
+h4{ 
+    width: 1vw;
+    height: 2vh;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+   align-items: center;
+   border-radius: 50px;
+
 }
